@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+  <header>
+    <h1>Resume Builder</h1>
+  </header>
+  <div class="container">
+    <div id="template-selection">
+      <h2>Choose a Template</h2>
+      <!-- Template selection options -->
+    </div>
+    <form id="resume-form">
+      <h2>Fill in Your Details</h2>
+      <!-- Input fields for personal information, education, work experience, skills, etc. -->
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Phone Number">
+      <textarea placeholder="Summary"></textarea>
+      <h3>Education</h3>
+      <input type="text" placeholder="Degree">
+      <input type="text" placeholder="School/University">
+      <input type="text" placeholder="Year of Graduation">
+      <h3>Work Experience</h3>
+      <input type="text" placeholder="Job Title">
+      <input type="text" placeholder="Company Name">
+      <input type="text" placeholder="Year of Employment">
+      <textarea placeholder="Job Description"></textarea>
+      <h3>Skills</h3>
+      <input type="text" placeholder="Skill 1">
+      <input type="text" placeholder="Skill 2">
+      <input type="text" placeholder="Skill 3">
+      <!-- Add more fields as needed -->
+      <input type="submit" value="Create Resume">
+    </form>
+    <div id="preview">
+      <h2>Resume Preview</h2>
+      <!-- Resume preview area -->
+    </div>
+    <a id="download-button" download="resume.pdf">Download Resume</a>
+  </div>
+  <script src="p1.js"></script>
+</body>
+</html>
